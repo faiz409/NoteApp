@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgba( 64, 144, 172, 0.65) !important;
+}
+
+
+/* Alert */
+.alert {
+    padding: 10px 1rem !important;
+    display: none;
+    background: rgb(100, 149, 237) !important;
+    color: whitesmoke !important;
+}
+
+/*Main Card */
+.container h4{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+/* Input Card */
+.card{
+    max-width: 60%;
+    display: flex;
+    margin: 0 auto;
+    background: rgba(100, 149, 237, 0.9);
+    color: whitesmoke;
+}
+
+#addTxt{
+    height: 126px;
+    resize: none;
+}
+
+.form-control{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.text-muted {
+    color: whitesmoke!important;
+    font-size: 1rem;
+}
+
+/* Show Cards */
+.container-fluid{
+    margin-left: 20px;
+}
+
+
+/* Utility */
+
+hr:not([size]) {
+    height: 3px;
+    color: whitesmoke;
+}
+
+.btn-primary{
+    border: none !important;
+    box-shadow: none !important;
+    background: whitesmoke !important;
+    color: rgb(100, 149, 237) !important;
+    outline: none !important;
+}
+
+.btn-primary:hover{
+    background: rgb(100, 149, 237) !important;
+    color: whitesmoke !important;
+    border: 1px solid whitesmoke !important;
+    outline: none !important;
+}
+
+.btn-outline-primary{
+    background-color: rgb(16, 147, 194) !important;
+    color: whitesmoke !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.btn-outline-primary:hover{
+    background-color: rgba(11, 158, 211, 0.7) !important;
+}
+
+#notes{
+    color: whitesmoke !important;
+}
